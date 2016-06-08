@@ -1,0 +1,33 @@
+{
+  "name": "testbot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/testbot.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/testbot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/testbot/issues"
+  },
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "version": "1.0.0",
+  "description": "textlint testbot sandbox.",
+  "main": "lib/testbot.js",
+  "scripts": {
+    "test": "nf start --procfile ./Procfile"
+  },
+  "keywords": [
+    "textlint"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "foreman": "^1.4.1"
+  }
+}
