@@ -1,20 +1,15 @@
-# testbot
+# testbot sandbox
 
 textlint testbot sandbox.
+
+Run lint to real projects using textlint@latest.
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install testbot
-
-## Usage
-
-- [ ] Write usage instructions
-
-## Changelog
-
-See [Releases page](https://github.com/azu/testbot/releases).
+    npm install
+    npm i -g textlintrc-to-pacakge-list
 
 ## Running tests
 

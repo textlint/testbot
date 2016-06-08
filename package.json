@@ -2,14 +2,14 @@
   "name": "testbot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/testbot.git"
+    "url": "https://github.com/textlint/testbot.git"
   },
   "author": "azu",
   "email": "azuciao@gmail.com",
-  "homepage": "https://github.com/azu/testbot",
+  "homepage": "https://github.com/textlint/testbot",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azu/testbot/issues"
+    "url": "https://github.com/textlint/testbot/issues"
   },
   "files": [
     "src/",
@@ -19,7 +19,7 @@
   "description": "textlint testbot sandbox.",
   "main": "lib/testbot.js",
   "scripts": {
-    "test": "nf start --procfile ./Procfile"
+    "test": "./test.sh"
   },
   "keywords": [
     "textlint"
@@ -28,6 +28,6 @@
     "test": "test"
   },
   "devDependencies": {
-    "foreman": "^1.4.1"
+    "textlintrc-to-pacakge-list": "^1.2.0"
   }
 }

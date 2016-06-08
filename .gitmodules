@@ -1,3 +1,12 @@
 [submodule "JavaScript-Plugin-Architecture"]
 	path = JavaScript-Plugin-Architecture
 	url = https://github.com/azu/JavaScript-Plugin-Architecture
+[submodule "gitbook-starter-kit"]
+	path = gitbook-starter-kit
+	url = https://github.com/azu/gitbook-starter-kit.git
+[submodule "scala_text"]
+	path = scala_text
+	url = https://github.com/dwango/scala_text.git
+[submodule "magi-hacker"]
+	path = magi-hacker
+	url = https://github.com/io-monad/magi-hacker.git

@@ -1,0 +1,17 @@
+#!/bin/bash
+set -eu
+declare currentDir=$(pwd)
+declare dirName="$1"
+declare documentDirName="$2"
+function echo_message(){
+  echo "=> $1"
+}
+echo_message "${dirName}"
+cd "${currentDir}/${dirName}"
+echo_message "Install textlint"
+npm install textlint@latest --cache-min 99999999
+${currentDir}/node_modules/.bin/textlintrc-to-pacakge-list .textlintrc | xargs npm install --cache-min 99999999
+echo_message "Run textlint"
+$(npm bin)/textlint -v
+time $(npm bin)/textlint ${documentDirName}
+exit 0
