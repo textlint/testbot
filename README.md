@@ -1,4 +1,4 @@
-# testbot sandbox
+# testbot sandbox [![Build Status](https://travis-ci.org/textlint/testbot.svg?branch=master)](https://travis-ci.org/textlint/testbot)
 
 textlint testbot sandbox.
 
