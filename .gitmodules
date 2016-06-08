@@ -13,3 +13,6 @@
 [submodule "docs.userdive.com"]
 	path = docs.userdive.com
 	url = https://github.com/uncovertruth/docs.userdive.com.git
+[submodule "rails-training"]
+	path = rails-training
+	url = https://github.com/sadah/rails-training.git

@@ -9,13 +9,17 @@ Run lint to real projects using textlint@latest.
 Install with [npm](https://www.npmjs.com/):
 
     npm install
-    npm i -g textlintrc-to-pacakge-list
 
 ## Running tests
 
 Install devDependencies and Run `npm test`:
 
     npm i -d && npm test
+
+## Adding Test Case
+
+- Add `git submodule add <test-example>`
+- Edit [test.sh](./test.sh) and add it
 
 ## Contributing
 
