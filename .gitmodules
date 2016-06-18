@@ -10,6 +10,3 @@
 [submodule "magi-hacker"]
 	path = magi-hacker
 	url = https://github.com/io-monad/magi-hacker.git
-[submodule "docs.userdive.com"]
-	path = docs.userdive.com
-	url = https://github.com/uncovertruth/docs.userdive.com.git
