@@ -13,5 +13,5 @@ npm install textlint@latest --cache-min 99999999 >/dev/null
 ${currentDir}/node_modules/.bin/textlintrc-to-pacakge-list .textlintrc | xargs npm install --cache-min 99999999
 echo_message "Run textlint"
 $(npm bin)/textlint -v
-time $(npm bin)/textlint ${documentDirName}
+$(npm bin)/textlint ${documentDirName}
 exit 0
