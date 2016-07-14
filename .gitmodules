@@ -10,6 +10,3 @@
 [submodule "magi-hacker"]
 	path = magi-hacker
 	url = https://github.com/io-monad/magi-hacker.git
-[submodule "aws-short-handbook"]
-	path = aws-short-handbook
-	url = https://github.com/satoshun00/aws-short-handbook.git
