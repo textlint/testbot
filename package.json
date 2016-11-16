@@ -28,7 +28,7 @@
     "test": "test"
   },
   "devDependencies": {
-    "textlint": "^7.0.0",
+    "textlint": "^7.1.3",
     "textlintrc-to-pacakge-list": "^1.2.0"
   }
 }
