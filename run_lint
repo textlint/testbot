@@ -10,6 +10,7 @@ echo_message "${dirName}"
 cd "${currentDir}/${dirName}"
 echo_message "Install textlint"
 npm install textlint@latest --cache-min 99999999 >/dev/null
+${currentDir}/node_modules/.bin/textlintrc-to-pacakge-list .textlintrc
 ${currentDir}/node_modules/.bin/textlintrc-to-pacakge-list .textlintrc | xargs npm install --cache-min 99999999
 echo_message "Run textlint"
 $(npm bin)/textlint -v
