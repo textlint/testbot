@@ -1,5 +1,7 @@
 # testbot sandbox [![Build Status](https://travis-ci.org/textlint/testbot.svg?branch=master)](https://travis-ci.org/textlint/testbot)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/textlint/testbot.svg)](https://greenkeeper.io/)
+
 textlint testbot sandbox.
 
 Run lint to real projects using textlint@latest.
